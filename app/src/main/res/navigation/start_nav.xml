@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/start_nav"
+    app:startDestination="@id/signUpFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.free.home.workout.notools.fitness.tracker.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_onBoarding1Fragment"
+            app:destination="@id/onBoarding1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoarding1Fragment"
+        android:name="com.free.home.workout.notools.fitness.tracker.OnBoarding1Fragment"
+        android:label="fragment_on_boarding1"
+        tools:layout="@layout/fragment_on_boarding1" >
+        <action
+            android:id="@+id/action_onBoarding1Fragment_to_onBoarding2Fragment"
+            app:destination="@id/onBoarding2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoarding2Fragment"
+        android:name="com.free.home.workout.notools.fitness.tracker.OnBoarding2Fragment"
+        android:label="fragment_on_boarding2"
+        tools:layout="@layout/fragment_on_boarding2" >
+        <action
+            android:id="@+id/action_onBoarding2Fragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.free.home.workout.notools.fitness.tracker.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signInFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.free.home.workout.notools.fitness.tracker.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUpFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+        <action
+            android:id="@+id/action_signUpFragment_to_step1Fragment"
+            app:destination="@id/step1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/step1Fragment"
+        android:name="com.free.home.workout.notools.fitness.tracker.Step1Fragment"
+        android:label="fragment_step1"
+        tools:layout="@layout/fragment_step1" >
+        <action
+            android:id="@+id/action_step1Fragment_to_step2Fragment"
+            app:destination="@id/step2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/step2Fragment"
+        android:name="com.free.home.workout.notools.fitness.tracker.Step2Fragment"
+        android:label="fragment_step2"
+        tools:layout="@layout/fragment_step2" />
+</navigation>

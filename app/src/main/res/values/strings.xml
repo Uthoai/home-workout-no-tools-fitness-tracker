@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">Home Workout-No Tools Fitness App</string>
+    <string name="app_name">FitooZone</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="already_have_account_sign_in">Already have account? Sign in</string>
+    <string name="get_started">Get Started</string>
+    <string name="welcome_des">FitooZone has workouts on demand that you can find based on how much time you have</string>
+    <string name="start_training">Start Training</string>
+    <string name="on_boarding1_des">Workout categories will help you gain strength, get in better shape and embrace a healthy lifestyle</string>
+    <string name="on_boarding2_des">Create and save your own custom workouts. Name your workouts, save them, and they’ll automatically appear when you’re ready to workout</string>
+    <string name="welcome_to_fitoozone">Welcome to FitooZone</string>
+    <string name="workout_categories">Workout Categories</string>
+    <string name="custom_workouts">Custom Workouts</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="sign_in_with">Sign in with</string>
+    <string name="already_have_an_account_sign_up">Already have an account! sign Up</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="phone">Phone</string>
+    <string name="full_name">Full Name</string>
+    <string name="skip">Skip</string>
+    <string name="choose_gender">Choose Gender</string>
 </resources>
